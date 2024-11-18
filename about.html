@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PNUairnow</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+
+  <nav>
+    <div class="w3-sidebar w3-bar-block w3-light-gray mynav">
+      <h3 class="w3-bar-item">Menu</h3>
+      <a href="index.html" class="w3-bar-item w3-button  w3-hover-green">Home</a>
+      <a href="csv.html" class="w3-bar-item w3-button w3-hover-green">CSV</a>
+      <a href="about.html" class="w3-bar-item w3-button w3-green w3-hover-green">About</a>
+    </div>
+  </nav>
+  <div class="mymaincontainer">
+    <header class="w3-container w3-center">
+      <h1 class="dynapuff-font">PNUairnow</h1>
+      <p class="dynapuff-font">visualizing air pollution and weather</p>
+    </header>
+    <div>
+      <div class="w3-center w3-display-container mymaincontent">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xEodej_M7TI?si=uGOvBNwAARg5a0ZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>you can download source code of this webpage on this <a href="https://github.com/minchoCoin/air-quality-dashboard">link</a></p>
+        <p>Real time weather and air pollution data is received from <a href="https://www.weatherapi.com/">Free Weather API</a></p>
+        <h3>Air Quality</h3>
+        <h6>UK DEFRA INDEX</h6>
+        <a href="https://uk-air.defra.gov.uk/air-pollution/daqi">check out what is the UK DEFRA INDEX, recommmend actions, and health advices</a>
+        <h6>Particulate Matter(PM<sub>10</sub>,PM<sub>2.5</sub>)</h6>
+        <p>Particulate Matter is classified into PM10 and PM2.5 depending on their diameters, PM10 is a dust less then 10/1000㎜ and PM2.5 is a dust less than 2.5/1000㎜ which are smaller then 1/20~1/30 of the hair diameter(about 60㎛). Particulate Matter is a mixture of airborne solid particles and liquid droplets. These particles take various shapes and sizes as they are emitted not only from natural sources, but also from various fixed or mobile sources. PM2.5 is either directly emitted from such sources or indirectly generated from gases such as SOx and NOx.</p>
+        <p>They aggravate respiratory diseases like asthma and weaken the functions of the lungs. Furthermore, they reduce visibility, disturb the metabolism of plants after remaining on the leaf, and particularly cause the corrosion of historic relics or statues.</p>
+        <table border="1"><thead>
+          <tr>
+            <th></th>
+            <th>good</th>
+            <th>moderate</th>
+            <th>bad</th>
+            <th>very bad</th>
+          </tr></thead>
+        <tbody>
+          <tr>
+            <td>pm10</td>
+            <td>0-30</td>
+            <td>31-80</td>
+            <td>81-150</td>
+            <td>151-</td>
+          </tr>
+          <tr>
+            <td>pm2.5</td>
+            <td>0-15</td>
+            <td>16-50</td>
+            <td>51-100</td>
+            <td>101-</td>
+          </tr>
+        </tbody>
+        </table>
+        <h6>O<sub>3</sub></h6>
+        <p>Ozone(O3) is a photochemical oxidant such as PANs, aldehyde, and acrolein which are formed during the photochemical reaction of NOx and VOCs in the presence of sunlight, and is classified as a secondary pollutant. VOCs, a precursor, are emitted from various sources such as motor vehicles and industrial facilities including chemical plants and refineries. They are also formed naturally.</p>
+        <p>Repeated exposure to O3 could cause lung damage, chest pains, coughs, nausea, throat irritation and indigestion, while aggravating bronchitis, cardiac disorders, pulmonary emphysema and asthma and reducing lung capacity. Patients with asthma and respiratory ailments, the elderly and children are particularly vulnerable to O3, thus they should avoid day-long outdoor activities. Moreover, O3 causes leaf damage in many plant species, thereby decreasing the productivity of crops and forests.</p>
+        <h6>NO<sub>2</sub></h6>
+        <p>Nitrogen dioxide(NO2), a reddish brown gas with its high reactivity, is generated during the oxidation of NO and also acts as a precursor which reacts with VOCs (volatile organic compounds) in the air to form O3. The major sources of NO2 emissions are high-temperature combustion processes including motor vehicles and power plants, as well as chemical production processes. NO2 can also be formed naturally, for example, by bacteria in the soil.</p>
+        <p>When it comes to the impact of NOx (nitrogen oxides) on the human body, NO2 is much more harmful than NO. It has been reported that those who are exposed to a high concentration of NO2 could develop not only mucosal diseases in their eyes or nose, but also chronic bronchitis, pneumonia, and pulmonary hemorrhage and edema. Furthermore, NO2 causes severe damage to plant cells, causing brown or dark brown speckles on the petals of flowers.</p>
+        <h6>CO</h6>
+        <p>Carbon monoxide(CO) is a colorless, odorless toxic gas, and is generated by the incomplete burning of carbon in fuel. The gas is emitted mainly from the transportation sector, and other contributors to CO emissions include industrial processes, non-road sources, natural sources including forest fires, and indoor emission sources such as cooking, smoking and heating.</p>
+        <p>CO transforms hemoglobin, an oxygen carrier into COHb, and thereby, disrupts the delivery of oxygen to the body's tissues. A high concentration of CO is toxic and may be fatal even to healthy people.</p>
+        <h6>SO<sub>2</sub></h6>
+        <p>Sulfur Dioxide(SO2), belongs to the family of sulfur oxide gases (SOx). SO2, an inert gas, dissolves easily in water and produces a colorless, pungent odor. It is prevalent in volcanoes and spas, and reacts with hydrogen sulfide to form sulfur. SOx gases are formed when fossil fuels such as coal and oil are burned, and are emitted largely from power plants, heating devices, metal smelters, refineries and other industrial processes.</p>
+        <p>A high concentration of SO2 may temporarily cause difficulty in breathing for the elderly and children who take part in outdoor activities or those who suffer from asthma. It is known that those exposed to SO2 at high concentrations are likely to suffer from respiratory ailments and aggravated cardiovascular disease. As the main culprit in acid rain, along with NOx, SO2 also contributes to the acidification of the soil. Problems associated with SOx are not confined to areas from which SOx are emitted because it can be carried long distances by the wind. Worse yet, these gases cause damage to plant tissues, especially veins, decrease visibility, as well as accelerate the corrosion of structures and monuments.</p>
+        <br/>
+        <p>origin of this content: <a href="https://www.airkorea.or.kr/eng/annualAirQualityTrends?pMENU_NO=161">airkorea</a></p>
+        <hr>
+        
+      </div>
+    </div>
+
+
+
+    <footer>
+      <div class="w3-container w3-bottom w3-teal">
+        <i class="fa-brands fa-github"></i> <a href="https://github.com/minchoCoin" target="_blank">github</a> <i
+          class="fa fa-user"></i> <a href="https://minchocoin.github.io" target="_blank">blog</a> <i
+          class="fa fa-envelope"></i> <a href="mailto:taehun5508@gmail.com">contact</a> <i
+          class="fa-regular fa-address-card"></i><a href="https://minchocoin.github.io/resume"
+          target="_blank">resume</a>
+        <p>Copyright 2024. Taehun Kim All right reserved. The sourcecode is licensed under the <a
+            href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU General Public License v3.0</a>. </p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

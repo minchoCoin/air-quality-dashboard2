@@ -1,0 +1,7 @@
+/*
+you can generate api key on https://www.weatherapi.com/
+*/
+
+const config = {
+    apikey: 'enter your api key'
+}
