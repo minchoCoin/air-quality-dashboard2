@@ -6,7 +6,7 @@ Air quality monitoring dashboard for term project of Web Application Programming
 # How to run?
 ## download this code
 ```
-git clone https://github.com/minchoCoin/air-quality-dashboard.git
+git clone https://github.com/minchoCoin/air-quality-dashboard2.git
 ```
 ## generate API key
 you can generate api key on [https://www.weatherapi.com/](https://www.weatherapi.com/). after sign up and login, you can check the your api key on weatherapi mypage.
